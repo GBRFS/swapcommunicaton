@@ -1,16 +1,16 @@
-\# Projeto de Comunicação – Swap
+# Projeto de Comunicação – Swap
 
 
 
-\## Visão Geral
+# Visão Geral
 
 
 
-Este projeto é responsável pela \*\*camada de comunicação com a API da Swap\*\*, centralizando autenticação, chamadas HTTP e padronização de contratos. O objetivo é \*\*isolar a complexidade de integração\*\*, facilitar manutenção e permitir evolução sem impacto direto nas camadas de negócio.
+Este projeto é responsável pela camada de comunicação com a API da Swap, centralizando autenticação, chamadas HTTP e padronização de contratos. O objetivo é isolar a complexidade de integração, facilitar manutenção e permitir evolução sem impacto direto nas camadas de negócio.
 
 
 
-O projeto segue uma abordagem \*\*monolítica modular\*\*, com responsabilidades bem definidas e baixo acoplamento entre módulos.
+O projeto segue uma abordagem monolítica modular, com responsabilidades bem definidas e baixo acoplamento entre módulos.
 
 
 
@@ -18,7 +18,7 @@ O projeto segue uma abordagem \*\*monolítica modular\*\*, com responsabilidades
 
 
 
-\## Objetivos do Projeto
+# Objetivos do Projeto
 
 
 
@@ -38,7 +38,7 @@ O projeto segue uma abordagem \*\*monolítica modular\*\*, com responsabilidades
 
 
 
-\## Arquitetura Geral
+# Arquitetura Geral
 
 
 
@@ -46,11 +46,11 @@ O projeto é organizado em módulos, cada um com uma responsabilidade clara:
 
 
 
-\* \*\*Application\*\*: Orquestra os casos de uso relacionados à comunicação com a Swap
+**Application**: Orquestra os casos de uso relacionados à comunicação com a Swap
 
-\* \*\*Infrastructure\*\*: Implementação técnica das integrações HTTP
+**Infrastructure**: Implementação técnica das integrações HTTP
 
-\* \*\*Domain (quando aplicável)\*\*: Contratos, DTOs e regras específicas do domínio de comunicação
+**Domain (quando aplicável)**: Contratos, DTOs e regras específicas do domínio de comunicação
 
 
 
@@ -62,7 +62,7 @@ A aplicação não acessa diretamente a API externa. Toda chamada passa pela cam
 
 
 
-\## Fluxo de Comunicação
+# Fluxo de Comunicação
 
 
 
@@ -90,11 +90,11 @@ A aplicação não acessa diretamente a API externa. Toda chamada passa pela cam
 
 
 
-\## Autenticação
+# Autenticação
 
 
 
-O projeto suporta autenticação via \*\*token\*\*, obtido a partir das credenciais fornecidas pela Swap.
+O projeto suporta autenticação via **token**, obtido a partir das credenciais fornecidas pela Swap.
 
 
 
@@ -118,11 +118,11 @@ A lógica de autenticação fica isolada, evitando espalhar regras de segurança
 
 
 
-\## Configuração de Ambiente
+# Configuração de Ambiente
 
 
 
-As configurações são controladas por \*\*variáveis de ambiente\*\*, permitindo simular facilmente diferentes cenários:
+As configurações são controladas por **variáveis de ambiente**, permitindo simular facilmente diferentes cenários:
 
 
 
@@ -152,7 +152,7 @@ Dependendo do ambiente:
 
 
 
-\## Tratamento de Erros
+# Tratamento de Erros
 
 
 
@@ -172,7 +172,7 @@ O projeto possui tratamento centralizado de erros, garantindo:
 
 
 
-\## Benefícios da Abordagem
+# Benefícios da Abordagem
 
 
 
@@ -190,7 +190,7 @@ O projeto possui tratamento centralizado de erros, garantindo:
 
 
 
-\## Evolução Futura
+# Evolução Futura
 
 
 
@@ -212,11 +212,11 @@ Este projeto foi pensado para permitir:
 
 
 
-\## Considerações Finais
+# Considerações Finais
 
 
 
-O projeto de comunicação atua como um \*\*gateway interno\*\* entre a aplicação e a Swap, garantindo segurança, padronização e manutenibilidade, ao mesmo tempo em que prepara o sistema para crescimento e mudanças futuras.
+O projeto de comunicação atua como um **gateway interno** entre a aplicação e a Swap, garantindo segurança, padronização e manutenibilidade, ao mesmo tempo em que prepara o sistema para crescimento e mudanças futuras.
 
 
 
