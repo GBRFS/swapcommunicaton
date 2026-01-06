@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "UpBrasil.Authorization.Api.SharedAuthorizationController",
+    "Method": "Authorize",
+    "RelativePath": "authorizations/shared",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UpBrasil.Authorization.Integration.SwapAuthorizationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UpBrasil.Authorization.Integration.SwapAuthorizationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

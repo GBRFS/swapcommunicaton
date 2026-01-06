@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\integration\\swapauthorizationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\integration\\swapauthorizationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\integration\\swapauthorizationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\integration\\swapauthorizationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\application\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\application\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\api\\sharedauthorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\api\\sharedauthorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|c:\\projetos\\ouipass-swagger\\ouipass.upbrasil.authorization\\ouipass.upbrasil.authorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C02AF5E-511E-E8DA-CC31-ADDE7D06D976}|Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj|solutionrelative:ouipass.upbrasil.authorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwapAuthorizationRequest.cs",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationRequest.cs",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationRequest.cs",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationRequest.cs",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:21:35.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SwapAuthorizationResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationResponse.cs",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationResponse.cs",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationResponse.cs",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Integration\\SwapAuthorizationResponse.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:21:36.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Program.cs",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Program.cs",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Program.cs",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:31.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Application\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Application\\AuthorizationService.cs",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Application\\AuthorizationService.cs",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Application\\AuthorizationService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T14:35:18.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SharedAuthorizationController.cs",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Api\\SharedAuthorizationController.cs",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Api\\SharedAuthorizationController.cs",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Api\\SharedAuthorizationController.cs",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Api\\SharedAuthorizationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:21:37.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-06T14:46:34.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ouipass.UpBrasil.Authorization.csproj",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T14:48:22.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\appsettings.Development.json",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\appsettings.Development.json",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T16:53:23.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\appsettings.json",
+              "RelativeDocumentMoniker": "Ouipass.UpBrasil.Authorization\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\ouipass-swagger\\Ouipass.UpBrasil.Authorization\\Ouipass.UpBrasil.Authorization\\appsettings.json",
+              "RelativeToolTip": "Ouipass.UpBrasil.Authorization\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-06T14:34:20.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

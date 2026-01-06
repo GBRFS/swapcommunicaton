@@ -1,0 +1,10 @@
+POST http://localhost:5192/authorizations/shared
+Content-Type: application/json
+
+{
+  "internalTransactionId": "tx123",
+  "billingAmount": 100,
+  "account": {
+    "availableBalance": 80
+  }
+}

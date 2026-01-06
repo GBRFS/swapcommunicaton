@@ -1,0 +1,297 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Ouipass.UpBrasil.Authorization",
+    "version": "1.0"
+  },
+  "paths": {
+    "/authorizations/shared": {
+      "post": {
+        "tags": [
+          "SharedAuthorization"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SwapAuthorizationRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SwapAuthorizationRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SwapAuthorizationRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/SwapAuthorizationResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SwapAuthorizationResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SwapAuthorizationResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AccountDto": {
+        "type": "object",
+        "properties": {
+          "treasury_account_holder_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "account_holder_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance_account_group_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance_account_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "available_balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CardDto": {
+        "type": "object",
+        "properties": {
+          "card_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "pan_masked": {
+            "type": "string",
+            "nullable": true
+          },
+          "card_issuance_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expiry_mm_yyyy": {
+            "type": "string",
+            "nullable": true
+          },
+          "brand": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CardTokenDto": {
+        "type": "object",
+        "properties": {
+          "wallet_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "wallet_name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InstallmentsDto": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "number_of_installments": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MerchantDto": {
+        "type": "object",
+        "properties": {
+          "mcc": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_city": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_country": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant_document": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PosDto": {
+        "type": "object",
+        "properties": {
+          "chip_capability": {
+            "type": "boolean"
+          },
+          "contactless_capability": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "magnetic_stripe_capability": {
+            "type": "boolean"
+          },
+          "pin_entry_capability": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SwapAuthorizationRequest": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "realm": {
+            "type": "string",
+            "nullable": true
+          },
+          "acquiring_country_code": {
+            "type": "string",
+            "nullable": true
+          },
+          "acquiring_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "added_time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "billing_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "billing_currency": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "txn_amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "currency": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "msg_type": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "txn_type": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "internal_transaction_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "pan_entry_mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pin_sent": {
+            "type": "boolean"
+          },
+          "cobranded": {
+            "type": "boolean"
+          },
+          "installments": {
+            "$ref": "#/components/schemas/InstallmentsDto"
+          },
+          "account": {
+            "$ref": "#/components/schemas/AccountDto"
+          },
+          "card": {
+            "$ref": "#/components/schemas/CardDto"
+          },
+          "card_token": {
+            "$ref": "#/components/schemas/CardTokenDto"
+          },
+          "pos": {
+            "$ref": "#/components/schemas/PosDto"
+          },
+          "merchant": {
+            "$ref": "#/components/schemas/MerchantDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SwapAuthorizationResponse": {
+        "type": "object",
+        "properties": {
+          "internal_transaction_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "response_code": {
+            "type": "string",
+            "nullable": true
+          },
+          "available_balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
